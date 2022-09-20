@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "netlify dev"
+    "dev": "netlify dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "netlify-cli": "^11.8.0"
+  },
+  "dependencies": {
+    "airtable-node": "^0.1.20",
+    "dotenv": "^16.0.2"
   }
 }
